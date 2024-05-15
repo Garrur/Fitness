@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'GymManagementDjango.wsgi.application'
+WSGI_APPLICATION = 'GymManagementDjango.wsgi.app'
 
 
 # Database

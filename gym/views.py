@@ -5,9 +5,12 @@ from django.contrib.auth import authenticate, logout, login
 from datetime import date
 from django.db.models import Q
 
+from django.http import HttpResponse
+
 # Create your views here.
 
 def index(request):
+    
     return render(request,'index.html')
 
 def admin_login(request):
